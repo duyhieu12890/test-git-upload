@@ -1,0 +1,26 @@
+.taskbar-top {
+    display: flex;
+    position: fixed;
+    text-decoration: none;
+    justify-content: center;
+    width: 100%;
+    background-color: aqua;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+}
+
+.taskbar-top a {
+    color: black;
+    cursor: pointer;
+    text-transform: uppercase;
+    font-size: 20px;
+}
+
+.top-hover {
+    background-color: rgb(200, 200, 200);
+}
