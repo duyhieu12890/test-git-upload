@@ -3,3 +3,17 @@ html {
     margin: 0;
     height: 100%;
 }
+
+.home-category {
+    padding: 0 5% 0 5%;
+}
+
+.lable-category {
+    text-align: center;
+    font-size: 30px;
+}
+
+.home-categorys {
+    display: flex;
+    flex-wrap: wrap;
+}

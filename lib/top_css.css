@@ -1,10 +1,13 @@
 .taskbar-top {
     display: flex;
-    position: fixed;
     text-decoration: none;
     justify-content: center;
     width: 100%;
     background-color: aqua;
+}
+
+.taskbar-top-main {
+    position: fixed;
 }
 
 * {
