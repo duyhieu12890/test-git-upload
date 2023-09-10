@@ -8,12 +8,25 @@ html {
     padding: 0 5% 0 5%;
 }
 
-.lable-category {
+.lable-item {
     text-align: center;
-    font-size: 30px;
+    font-size: 15px;
+    font-family: Segoe UI, SegoeUI, Helvetica Neue, Helvetica, Arial, sans-serif;
+    ;
 }
 
 .home-categorys {
     display: flex;
     flex-wrap: wrap;
+}
+
+.main-category-box {
+    width: 30%;
+    height: 15%;
+    padding: 2%;
+}
+
+.category-lable {
+    padding: 0.5%;
+    text-transform: uppercase;
 }
