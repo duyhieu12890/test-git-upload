@@ -1,13 +1,7 @@
 .taskbar-top {
-    display: flex;
     text-decoration: none;
-    justify-content: center;
-    width: 100%;
-    background-color: aqua;
-}
-
-.taskbar-top-main {
-    position: fixed;
+    background-color: rgb(255, 255, 255);
+    display: flex;
 }
 
 * {
@@ -21,7 +15,15 @@
     color: black;
     cursor: pointer;
     text-transform: uppercase;
-    font-size: 20px;
+    font-size: 16px;
+    padding: 0 2.5% 0 2.5%;
+    font-family: Segoe UI, SegoeUI, Helvetica Neue, Helvetica, Arial, sans-serif;
+}
+
+.taskbar-fixed {
+    position: fixed;
+    width: 100%;
+    line-height: 160%;
 }
 
 .top-hover {
