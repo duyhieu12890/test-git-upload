@@ -11,74 +11,85 @@
 
 <body>
     <div class="container">
-        <div class="left-container">
-            <div class="list-category">
-                <ul class="tree-table">
-                    <li role="none">
-                        <a href="../appdev.html" class="box-cat">Windows App Developer</a>
-                    </li>
-                    <li role="none" class="box-cat">
-                        <a href="lis-cat/Overview.html">Overview</a>
-                    </li>
+        <div class="taskbar-fixed">
+            <div class="taskbar-top">
+                <a href="../../home.html" class="taskbar-top top-hover">Home</a>
+                <a href="../../developer.html" class="taskbar-top">Developer</a>
+                <a href="" class="taskbar-top">Srcipt</a>
+                <a href="" class="taskbar-top">Learn</a>
+                <a href="../../about.html" class="taskbar-top">About</a>
+                <a href="" class="taskbar-top">Support</a>
+                <a href="" class="taskbar-top">Blogs</a>
+                <a href="../../login.html" class="taskbar-top">Login</a>
+            </div>
+            <div class="left-container">
+                <div class="list-category">
+                    <ul class="tree-table">
+                        <li role="none">
+                            <a href="../appdev.html" class="box-cat">Windows App Developer</a>
+                        </li>
+                        <li role="none" class="box-cat">
+                            <a href="lis-cat/Overview.html">Overview</a>
+                        </li>
 
-                    <li role="treeitem" class="box-cat">
-                        <span data-bi-name="tree-expander" class="tree-expander">
+                        <li role="treeitem" class="box-cat">
+                            <span data-bi-name="tree-expander" class="tree-expander">
                         <span class="tree-expander-indicator docon docon-chevron-right-light" aria-hidden="true">
                         </span> Get started
-                        </span>
-                        <li role="none" class="box-cat">
-                            <a href="About-mig.html">About migrating from UWP to the Windows App SDK</a>
+                            </span>
+                            <li role="none" class="box-cat">
+                                <a href="About-mig.html">About migrating from UWP to the Windows App SDK</a>
+                            </li>
+                            <li role="none" class="box-cat">
+                                <a href="">Install tools for the Windows App SDK</a>
+                            </li>
+                            <li role="none" class="box-cat">
+                                <a href="">Create your first WinUI 3 (Windows App SDK) project</a>
+                            </li>
+                            class
                         </li>
-                        <li role="none" class="box-cat">
-                            <a href="">Install tools for the Windows App SDK</a>
-                        </li>
-                        <li role="none" class="box-cat">
-                            <a href="">Create your first WinUI 3 (Windows App SDK) project</a>
-                        </li>
-                        class
-                    </li>
-                    <li role="treeitem" class="box-cat">
-                        <span data-bi-name="tree-expander" class="tree-expander">
+                        <li role="treeitem" class="box-cat">
+                            <span data-bi-name="tree-expander" class="tree-expander">
                         <span class="tree-expander-indicator docon docon-chevron-right-light" aria-hidden="true">
                         </span> Guide and Resources
-                        </span>
-                        <li role="treeitem" class="box-cat">
-                            <a href="">System requirements</a>
+                            </span>
+                            <li role="treeitem" class="box-cat">
+                                <a href="">System requirements</a>
+                            </li>
+                            <li role="treeitem" class="box-cat">
+                                <a href="">Enable your device for development</a>
+                            </li>
+                            <li role="treeitem" class="box-cat">
+                                <a href="">Developer Mode features and debugging</a>
+                            </li>
                         </li>
                         <li role="treeitem" class="box-cat">
-                            <a href="">Enable your device for development</a>
-                        </li>
-                        <li role="treeitem" class="box-cat">
-                            <a href="">Developer Mode features and debugging</a>
-                        </li>
-                    </li>
-                    <li role="treeitem" class="box-cat">
-                        <span data-bi-name="tree-expander" class="tree-expander">
+                            <span data-bi-name="tree-expander" class="tree-expander">
                         <span class="tree-expander-indicator docon docon-chevron-right-light" aria-hidden="true">
                         </span> API reference
-                        </span>
-                        <li role="treeitem" class="box-item">
-                            <a href="">API reference</a>
-                            <a href="">Windows API SDK</a>
+                            </span>
+                            <li role="treeitem" class="box-item">
+                                <a href="">API reference</a>
+                                <a href="">Windows API SDK</a>
+                            </li>
                         </li>
-                    </li>
-                </ul>
-            </div>
-            <div class="main-container">
-                <div class="lable-content">About migrating from UWP to the Windows App SDK</div>
-                <div class="main-content">
-                    <p>If you're happy with your current functionality in the Universal Windows Platform (UWP), then there's no need to migrate your project type. WinUI 2.x, and the Windows SDK, support UWP project types. But if you've decided to migrate
-                        your app from UWP to the Windows App SDK, then in most cases your UI code needs just a few namespace changes. Much of your platform code can stay the same. You'll need to adjust some code due to differences between desktop apps
-                        and UWP apps. But we expect that for most apps (depending on codebase size, of course), migration will take on the order of days rather than weeks. At a high level, these are the steps:
-                    </p>
+                    </ul>
                 </div>
-                <ol class="listitem">
-                    <li>Create your first WinUI 3 project packaged desktop project. That could go into your existing solution.</li>
-                    <li>Copy your XAML/UI code. In many cases you can simply change namespaces (for example, Windows.UI.* to Microsoft.UI.*).</li>
-                    <li>Copy your app logic code. Some APIs need tweaks, such as Popup, Pickers, and SecondaryTiles.</li>
-                </ol>
+                <div class="main-container">
+                    <div class="lable-content">About migrating from UWP to the Windows App SDK</div>
+                    <div class="main-content">
+                        <p>If you're happy with your current functionality in the Universal Windows Platform (UWP), then there's no need to migrate your project type. WinUI 2.x, and the Windows SDK, support UWP project types. But if you've decided to migrate
+                            your app from UWP to the Windows App SDK, then in most cases your UI code needs just a few namespace changes. Much of your platform code can stay the same. You'll need to adjust some code due to differences between desktop
+                            apps and UWP apps. But we expect that for most apps (depending on codebase size, of course), migration will take on the order of days rather than weeks. At a high level, these are the steps:
+                        </p>
+                    </div>
+                    <ol class="listitem">
+                        <li>Create your first WinUI 3 project packaged desktop project. That could go into your existing solution.</li>
+                        <li>Copy your XAML/UI code. In many cases you can simply change namespaces (for example, Windows.UI.* to Microsoft.UI.*).</li>
+                        <li>Copy your app logic code. Some APIs need tweaks, such as Popup, Pickers, and SecondaryTiles.</li>
+                    </ol>
+                </div>
             </div>
-        </div>
 </body>
 
 </html>

@@ -1,0 +1,40 @@
+html,
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.directory-topic {
+    display: flex;
+    width: 100%;
+    height: 50%;
+    padding: 10% 15% 5% 0;
+    background-image: url(https://learn.microsoft.com/en-us/media/home-and-directory/directory-hero_dark.jpg?branch=main);
+}
+
+.content-topics {
+    background-color: #505050;
+    color: white;
+}
+
+.content {
+    padding: 0 0 0 10%;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.label-topic {
+    padding: 8% 0 8% 10%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.label-topic p {
+    font-size: 20px;
+    padding: 2% 0 0 0;
+}
+
+.list-item {
+    display: flex;
+    padding: 0 0 0 20%;
+    box-shadow: 1px 1px 10px black;
+}
