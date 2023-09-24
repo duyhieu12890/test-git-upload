@@ -2,6 +2,8 @@
     text-decoration: none;
     background-color: rgb(255, 255, 255);
     display: flex;
+    width: 100%;
+    justify-content: center;
 }
 
 * {
@@ -15,6 +17,8 @@
     color: black;
     cursor: pointer;
     text-transform: uppercase;
+    text-align: center;
+    border-radius: 5px;
     font-size: 16px;
     padding: 0 2.5% 0 2.5%;
     font-family: Segoe UI, SegoeUI, Helvetica Neue, Helvetica, Arial, sans-serif;
